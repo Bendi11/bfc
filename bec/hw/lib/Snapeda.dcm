@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+# STSPIN32F0
+#
+$CMP STSPIN32F0
+D
+F
+$ENDCMP
+#End Doc Library

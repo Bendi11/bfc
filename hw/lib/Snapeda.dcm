@@ -1,0 +1,16 @@
+EESchema-DOCLIB  Version 2.0
+#
+# TPS54331DR
+#
+$CMP TPS54331DR
+D
+F
+$ENDCMP
+#
+# STSPIN32F0
+#
+$CMP STSPIN32F0
+D
+F
+$ENDCMP
+#End Doc Library

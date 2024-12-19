@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d84a0364-12bf-46a1-aa35-a269a0d433e4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 114.3 25.4)
+		(size 17.78 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0acb1a24-245c-4beb-bf5d-b67c951b5bc5")
+		(property "Sheetname" "Motor Control Unit D"
+			(at 114.3 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 114.3 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hw"
+				(path "/d84a0364-12bf-46a1-aa35-a269a0d433e4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 25.4)
+		(size 17.78 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "297e9377-933e-43c6-95c9-e05c8bab3654")
+		(property "Sheetname" "Motor Control Unit B"
+			(at 64.77 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 64.77 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hw"
+				(path "/d84a0364-12bf-46a1-aa35-a269a0d433e4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 25.4)
+		(size 17.78 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4657e9a-5e2b-49c4-a262-bf3be3b96b26")
+		(property "Sheetname" "Motor Control Unit C"
+			(at 88.9 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 88.9 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hw"
+				(path "/d84a0364-12bf-46a1-aa35-a269a0d433e4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 25.4)
+		(size 17.78 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc45863e-6925-4431-812a-4eff010a2e8e")
+		(property "Sheetname" "Motor Control Unit A"
+			(at 38.1 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 38.1 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hw"
+				(path "/d84a0364-12bf-46a1-aa35-a269a0d433e4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
