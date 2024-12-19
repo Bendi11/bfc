@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "firmware",
+    "control-loop",
+    "simulator"
+]
+
+[workspace.dependencies]
+nalgebra = { version = "0.33" }
+num-traits = { version = "0.2" }
+typenum = "1.12"

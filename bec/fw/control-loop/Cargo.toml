@@ -1,0 +1,12 @@
+[package]
+name = "control-loop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nalgebra = { workspace = true, default-features = false }
+num-traits = { workspace = true, default-features = false }
+typenum = "1.12"
+
+[features]
+std = ["nalgebra/std", "num-traits/std"]

@@ -1,0 +1,9 @@
+[package]
+name = "simulator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nalgebra = { workspace = true }
+num-traits = { workspace = true }
+control-loop = { path = "../control-loop", features = ["std"] }
