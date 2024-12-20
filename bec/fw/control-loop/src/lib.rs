@@ -40,8 +40,8 @@ T: MatrixVectorMultiplicable + Neg<Output = T> + Clone {
     let (sin, cos) = trig.sin_cos(theta);
 
     let rotation = Matrix2::new(
-        cos.clone(), -sin.clone(),
-        sin,        cos
+        cos.clone(), sin.clone(),
+        -sin,        cos
     );
 
     rotation * alpha_beta

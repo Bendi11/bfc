@@ -1,0 +1,120 @@
+(footprint "Battery Terminal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9.906 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8e1e23aa-ce39-41dd-834b-52802e94ec40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery Terminal"
+		(at 0 -8.636 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f9ecb513-e1b5-4357-86a2-fc67f5f20008")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49cab68d-2323-444b-8460-d5bcce110ce0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3033d75-56b7-4a74-a75a-13e9c731c539")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40e22723-5fcb-444d-9aba-32c10fba1722")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -3 1.75) (xy -6.5 -1.75) (xy -3 -1.75)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "ecef9bd5-af0b-4dd5-ac79-165c427de0cf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.858 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "802a4c13-bb11-48ca-9401-2d21e51dba23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect custom
+		(at 0 0)
+		(size 6 3.5)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_circle
+				(center 3 1)
+				(end 3.75 1)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 3.75 1) (xy 3.75 -1.75) (xy 3 -1.75) (xy 3 1)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "fd863ce9-bea0-489c-a338-582f9b6631df")
+	)
+)
