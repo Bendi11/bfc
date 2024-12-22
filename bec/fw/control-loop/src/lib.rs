@@ -3,6 +3,8 @@ use std::ops::Neg;
 use nalgebra::{ClosedAddAssign, ClosedMulAssign, Matrix2, RowVector2, Scalar, Vector2};
 use num_traits::{ConstOne, Inv, One, Zero};
 
+pub mod fixed;
+
 pub trait MatrixVectorMultiplicable: ClosedMulAssign + ClosedAddAssign + Scalar + One + Zero {}
 impl<T: ClosedMulAssign + ClosedAddAssign + Scalar + One + Zero> MatrixVectorMultiplicable for T {}
 
